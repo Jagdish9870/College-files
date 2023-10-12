@@ -27,7 +27,7 @@ public class calculatorUsingJFrame {
         jb1.setBounds(350,280,80,30);
        
         JButton jb2= new JButton("-");
-        jb1.setBounds(450,280,80,30);
+        jb2.setBounds(450,280,80,30);
         jf.add(jl1);
         jf.add(jl2);
         jf.add(jl3);
@@ -44,11 +44,11 @@ public class calculatorUsingJFrame {
             jt3.setText(" "+num3);
         }
         );
-         jb1.addActionListener((ActionEvent a)->
+         jb2.addActionListener((ActionEvent a)->
         {
             int num1=Integer.parseInt (jt1.getText());
             int num2= Integer.parseInt(jt2.getText());
-            int num3= num1+num2;
+            int num3= num1-num2;
             jt3.setText(" "+num3);
         }
         );

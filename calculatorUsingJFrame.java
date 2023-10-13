@@ -12,11 +12,11 @@ public class calculatorUsingJFrame {
         jf.setBounds(10, 10, 200, 150);
 
         JLabel jl1 = new JLabel("enter first number");
-        jl1.setBounds(10, 010, 0200, 0150);
+        jl1.setBounds(10, 10, 300, 150);
          JLabel jl2 = new JLabel("enter second number");
-        jl2.setBounds(10, 020, 0200, 0150);
+        jl2.setBounds(10, 20, 300, 150);
          JLabel jl3 = new JLabel("result");
-        jl3.setBounds(20, 80, 0200, 0150);
+        jl3.setBounds(20, 80, 300, 150);
         JTextField jt1= new JTextField();
         jt1.setBounds(300 ,70,300,30 );
          JTextField jt2= new JTextField();

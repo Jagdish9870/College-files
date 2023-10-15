@@ -20,7 +20,7 @@ public class DivisionUsingtryBlock {
         System.out.println(" here is the ans "  +c);
 
 
-        
+        sc.close();
 
     }
     

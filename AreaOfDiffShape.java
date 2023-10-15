@@ -1,27 +1,38 @@
-import java.util.Scanner;
+
 
 class Shape {
 
     public int length;
-    public int Width;
+   
     public int height;
     public int base;
 
   
 }
-class Triangle extends Shape{
-        int Area=1/2*height*base;
-    public void area(){
-        System.out.println();
+class Sqaure extends Shape{
+    public void area(int height){
+        int Area1=height*height;
+        System.out.println("area of triangle : " + Area1);
+    }
+}
+class Rectangle extends Shape{
+    public void area(int height , int length){
+        int Area= length*height;
+        System.out.println("area of rectangle : "+ Area);
     }
 }
 
 public class AreaOfDiffShape {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+       Sqaure s= new Sqaure();
+       
+       s.area(5);
+       Rectangle r= new Rectangle();
+       r.area(5, 8);
 
-        System.out.println("enter heigh");
-        sc.close();
+
+
+
     }
 
     

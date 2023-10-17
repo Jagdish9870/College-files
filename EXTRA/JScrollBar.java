@@ -1,25 +1,25 @@
-
+package EXTRA;
 
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class NotePad {
+
+public class JScrollBar {
      public static void main(String[] args) {
-        JFrame jf= new JFrame("NOTEPAD");
+        JFrame jf= new JFrame("ScrollBar");
         jf.setBounds(10, 10, 200, 150);
-        JTextArea ta = new JTextArea(20,30);
+        JTextArea ta = new JTextArea();
         ta.setBounds(200, 200, 200, 200);
         JScrollPane sp = new JScrollPane(ta);
         sp.setBounds(600, 200, 400, 260);
-        sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-        sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         jf.add(sp);
         
         
         
         
-        jf.setSize(500, 300);
         jf.setLayout(null);
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

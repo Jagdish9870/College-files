@@ -1,4 +1,4 @@
-package EXTRA;
+package programGUI_JAVA;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;

@@ -1,7 +1,10 @@
 
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.JTabbedPane;
 import javax.swing.JTextArea;
 
 public class NotePad {
@@ -14,7 +17,29 @@ public class NotePad {
         sp.setBounds(600, 200, 400, 260);
         sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
         sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        jf.add(sp);
+        
+        
+
+
+
+
+          JTabbedPane tp= new JTabbedPane();
+        tp.setBounds(200,200,400,400);
+
+        JPanel p1= new JPanel();
+        JPanel p2= new JPanel();
+        JPanel p3= new JPanel();
+        
+        p1.add(new JScrollPane(ta));
+        p2.add(new JLabel("edit"));
+
+        p3.add(new JLabel("TERMS AND CONDITIONS"));
+
+        tp.add("home",p1);
+        tp.add("Edit",p2);
+        tp.add("More",p3);  
+        
+        jf.add(tp);
         
         
         

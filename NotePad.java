@@ -23,10 +23,11 @@ public class NotePad {
 
 
 
-        JTabbedPane tp= new JTabbedPane();
+          JTabbedPane tp= new JTabbedPane();
         tp.setBounds(200,200,400,400);
 
         JPanel p1= new JPanel();
+        
         JPanel p2= new JPanel();
         JPanel p3= new JPanel();
         

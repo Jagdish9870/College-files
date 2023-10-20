@@ -12,7 +12,7 @@ public class NotePad {
         JFrame jf= new JFrame("NOTEPAD");
         jf.setBounds(10, 10, 200, 150);
         JTextArea ta = new JTextArea(20,30);
-        ta.setBounds(200, 200, 200, 200);
+        ta.setBounds(200, 200, 400, 400);
         JScrollPane sp = new JScrollPane(ta);
         sp.setBounds(600, 200, 400, 260);
         sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -23,7 +23,7 @@ public class NotePad {
 
 
 
-          JTabbedPane tp= new JTabbedPane();
+        JTabbedPane tp= new JTabbedPane();
         tp.setBounds(200,200,400,400);
 
         JPanel p1= new JPanel();

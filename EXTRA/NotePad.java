@@ -1,3 +1,4 @@
+package EXTRA;
 
 
 import javax.swing.JFrame;

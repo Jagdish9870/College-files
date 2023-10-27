@@ -24,6 +24,7 @@ public class calculatorUsingJFrame {
         jt2.setBounds(300 ,140,300,30 );
          JTextField jt3= new JTextField();
         jt3.setBounds(300 ,210,300,30 );
+        jt3.setEditable(false);
         JButton jb1= new JButton("+");
         jb1.setBounds(350,280,80,30);
        

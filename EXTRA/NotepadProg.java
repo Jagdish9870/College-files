@@ -6,6 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 public class NotepadProg {
@@ -60,6 +61,11 @@ public class NotepadProg {
         JTextArea jt = new JTextArea();
         jt.setBounds(10, 10, 600, 400); 
         jf.add(jt);
+        JScrollPane sp = new JScrollPane(jt);
+        sp.setBounds(0, 0, 600, 400);
+        sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+        sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        jf.add(sp);
         
         // event listener..
         i1.addActionListener((ActionEvent a)->{

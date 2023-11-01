@@ -34,7 +34,7 @@ public class NotePad {
 
         tp.add("home",p1);
         tp.add("Edit",p2);
-        tp.add("More",p3);  
+        tp.add("Format",p3);  
         
         jf.add(tp);
         

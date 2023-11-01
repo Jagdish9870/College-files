@@ -1,5 +1,7 @@
+package EXTRA;
 import java.awt.event.ActionEvent;
 
+import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -48,7 +50,9 @@ public class NotepadProg {
             e.add(i9);
          
 
-        JMenu m= new JMenu("More");   //third menu
+        JMenu m= new JMenu("Format");   //third menu
+        JCheckBoxMenuItem i10=new JCheckBoxMenuItem("Wrap");
+        m.add(i10);
         mb.add(m);
 
         jf.setJMenuBar(mb);        // adding menubar into jframe............
@@ -83,6 +87,16 @@ public class NotepadProg {
 
             jt.selectAll();
             
+        });
+        i10.addActionListener((ActionEvent a)->{
+            if (i10.isSelected()){
+                jt.setLineWrap(true);
+                jt.setWrapStyleWord(true);
+            }
+            else{
+                jt.setLineWrap(false);
+                jt.setWrapStyleWord(false);
+            }
         });
         
 

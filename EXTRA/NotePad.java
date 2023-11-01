@@ -18,13 +18,8 @@ public class NotePad {
         sp.setBounds(600, 200, 400, 260);
         sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
         sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        
-        
 
-
-
-
-          JTabbedPane tp= new JTabbedPane();
+        JTabbedPane tp= new JTabbedPane();
         tp.setBounds(200,200,400,400);
 
         JPanel p1= new JPanel();

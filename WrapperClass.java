@@ -5,6 +5,7 @@ public class WrapperClass {
 
         int num=4;
         Integer num1= new Integer(num);  // boxing  and concept called wrapper class.........
+        
         System.out.println(num1);
 
         Integer num2 = num;                //autoboxing

@@ -3,10 +3,8 @@
 class Shape {
 
     public int length;
-   
     public int height;
     public int base;
-
   
 }
 class Sqaure extends Shape{

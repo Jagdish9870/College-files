@@ -1,7 +1,6 @@
 package factorial;
 
 import java.util.Scanner;
-
 public class Factorial {
     public int show(){
           Scanner sc = new Scanner(System.in);
@@ -11,7 +10,6 @@ public class Factorial {
         for(int i=n;i>=1;i--){
             factorial=factorial*i;
         }
-        
         sc.close();
         return factorial;
     }

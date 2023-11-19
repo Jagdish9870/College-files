@@ -8,7 +8,6 @@ interface Computer extends College{
         System.out.println("we study in CSE branch..");
     }
 }
-
 interface EIT extends Computer{
     void sub();
     void java();

@@ -18,8 +18,7 @@ class Java implements EIT{
     }
     public void java(){
         System.out.println(" java is used to design and code");
-    }
-   
+    }   
 }
 public class UsingInterface2levelInheritance {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
 interface College{
 
     void Branches();
-
 }
 interface Computer extends College{
     public default void Branches(){

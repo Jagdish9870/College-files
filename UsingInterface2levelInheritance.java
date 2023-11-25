@@ -1,5 +1,4 @@
 interface College{
-
     void Branches();
 }
 interface Computer extends College{

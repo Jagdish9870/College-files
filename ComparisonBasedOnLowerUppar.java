@@ -34,10 +34,6 @@ public class ComparisonBasedOnLowerUppar {
                 String str1 = str.toLowerCase();//to change all characters into small letters
                 System.out.println(str1);
 
-
-
-                
-
                 break;
             }
            

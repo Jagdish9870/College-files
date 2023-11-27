@@ -25,7 +25,6 @@ public class ComparisonBasedOnLowerUppar {
                     } else {
                         System.out.println("The strings are different.");
                     }
-
                       break;
                 }
             case 2:{

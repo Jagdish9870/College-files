@@ -35,7 +35,6 @@ public class ComparisonBasedOnLowerUppar {
 
                 break;
             }
-           
             case 3:
             {
                System.out.println("enter a string to convert into lower case");

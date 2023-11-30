@@ -5,7 +5,6 @@ public class findVoteOrNot {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your age : ");
         int age= sc.nextInt();
-
        String result=(age>=18)?"vote":"cannot vote";
        System.out.println(result);
        sc.close();

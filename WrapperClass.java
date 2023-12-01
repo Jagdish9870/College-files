@@ -2,7 +2,6 @@
 public class WrapperClass {
     public static void main(String[] args) {
         //boxing refere to storing primitive value into primitive object...........
-
         int num=4;
         Integer num1= new Integer(num);  // boxing  and concept called wrapper class.........
         

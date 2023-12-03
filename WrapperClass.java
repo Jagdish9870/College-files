@@ -15,7 +15,6 @@ public class WrapperClass {
 
         int num4= num1;
         System.out.println(num4);     //autoUnboxing
-
     }
     
 }

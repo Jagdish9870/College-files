@@ -17,7 +17,6 @@ public class DeleteInsertAppendReplaceInString {
         System.out.print("Enter your choice (1/2/3/4): ");
         int choice = scanner.nextInt();
         scanner.nextLine(); // Consume newline character
-
         switch (choice) {
             case 1:
                 // Delete a substring

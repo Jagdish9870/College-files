@@ -10,7 +10,6 @@ public class Calculator {
         System.out.println("operator which you want to perform...");
 
         String opp = cal.next();
-
         switch(opp){
             case "+":
                 System.out.println(num1+num2);

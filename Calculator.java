@@ -8,7 +8,6 @@ public class Calculator {
         System.out.println("enter b : ");
         int  num2=cal.nextInt() ;
         System.out.println("operator which you want to perform...");
-
         String opp = cal.next();
         switch(opp){
             case "+":

@@ -25,7 +25,6 @@ public class Calculator {
             case "%":
                 System.out.println(num1%num2);
                 break;                
-
         }
         cal.close();
     }

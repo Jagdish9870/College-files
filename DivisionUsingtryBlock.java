@@ -9,8 +9,7 @@ public class DivisionUsingtryBlock {
         int b=sc.nextInt();
         int c=0;
         try{
-           c=n/b;
-           
+           c=n/b; 
            
         }
         catch(Exception e){
